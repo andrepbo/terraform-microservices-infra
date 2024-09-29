@@ -1,0 +1,12 @@
+# Directory containing downloaded providers and modules
+.terraform/
+
+# Local Terraform state file
+terraform.tfstate
+terraform.tfstate.backup
+
+# Plan files that may contain sensitive information
+*.tfplan
+
+# Passwords and sensitive variables
+terraform.tfvars
